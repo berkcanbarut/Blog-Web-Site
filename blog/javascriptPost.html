@@ -1,0 +1,155 @@
+<!Doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Berkcan Barut`un kendi web sitesidir. Yazılım ve programlama ile ilgili blog yazıları paylaşmaktadır.">
+    <meta name="keywords" content="Berkcan Barut, Blog, Blogger, Yazılım ve Programlama, Javascript, Konya, Konya Teknik Üniversitesi">
+    <meta name="author" content="Berkcan Barut">
+    
+    
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="../img/page-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js" integrity="sha512-M+hXwltZ3+0nFQJiVke7pqXY7VdtWW2jVG31zrml+eteTP7im25FdwtLhIBTWkaHRQyPrhO2uy8glLMHZzhFog==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <title>Berkcan Barut</title>
+
+    <script>
+      $(document).ready(function(){
+        $("#showContent").hide()
+        $("#goster").click(function(){
+          $("#showContent").toggle()
+        })
+      });
+    </script>
+  </head>
+  <body>
+
+     <!-- NAVBAR -->
+     <nav class="navbar navbar-expand-lg navbar-dark my-bg">
+        <a class="navbar-brand" href="../index.html"><h4>Berkcan Barut</h4></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarText">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="../index.html"><i class="fas fa-home fa-lg"></i> Anasayfa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blogs.html"><i class="fas fa-feather-alt fa-lg"></i> Blog Yazıları</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html"><i class="fas fa-comments fa-lg"></i> İletişim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html"><i class="fas fa-address-book fa-lg"></i> Hakkımda</a>
+            </li>
+          </ul>
+          <span class="navbar-text d-lg-none">
+            -Web Dizayn ve Tasarım
+          </span>
+        </div>
+      </nav>
+
+    <header>
+        <div class="container my-2">
+            <h2 class="text-center">JavaScript Programlama Dili</h2>
+            <h6 class="text-center">Neden JavaScript ?</h6>
+        </div>
+    </header>
+    <section class="mt-3">
+        <div class="container d-flex justify-content-center">
+            <img src="../img/javasciptBlog.jpg" alt="blog img" class="w-100">
+        </div>
+    </section>
+
+    <section class="mt-3">
+        <div class="container-md">
+            <p class="lead text-justify">
+                İlk çıkış amacı sadece statik olarak oluşturulan web sitelerine dinamik hareketler katmak, kullanıcıyla web sitesinin etkileşime
+                girmesini sağlamaktı. Bu ihtiyacı karşılamak için sadece tarayıcılarda çalışabilen bir dil olan JavaScript <strong> Brendan Eich</strong> tarafından oluşturuldu.
+                Bu sayede web içerikleri hareketli hale geldi. Web sitelerin tasarımı daha da çekici kılındı. En önemlisi kullanıcı deneyimi arttı. JavaScript ile açılır menüler, animasyonlar, web sitesindeki elementlerin olayları, interaktif haritalar vb. durumlar programlanabilir hale geldi.
+            </p>
+            <p class="text-justify lead p-3" id="showContent">Web siteme hoşgeldin <i class="fas fa-smile-wink fa-lg"></i></p>
+            <button class="btn btn-danger" id="goster">Göster/Gizle</button>
+        </div>
+    </section>
+
+    <section class="mt-3">
+        <div class="row w-100">
+            <div class="col-md-6">
+                <p class="text-justify lead py-3 px-2">
+                    Sadece tarayıcıda çalışabilen bir programlama diliydi. Sonrasında Google açık kaynaklı V8 JavaScript motoru şeklinde bir teknoloji ortaya çıkardı. Bu paket sayesinde artık JavaScript kodlarımız sadece tarayıcı içerisinde çalışan kod olmaktan çıktı. Tarayıcıya olan bağımlılık kalktı. Bu şekilde 
+                    <a href="https://nodejs.org/en/" target="_blank">nodejs</a> hayatımıza girmiş oldu.
+                    Artık Back-end tarafınıda JavaScript ile kodlayabiliyoruz. Bildiğimiz bir yapının server tarafında da kullanılabiliyor olması birçok avantaj sağladı.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p class="text-justify lead py-3 px-2">
+                  Farklı bir  programlama dili kullandığınızda geliştiricilerin birbirinin işini yapması ve geliştiricilerin arasındaki iletişim pek kolay olmayabilir. JavaScript ile bütün ürününüzü tek dil ile çıkaracağınız için geliştiriciler arası uyum, anlayış ve işbirliği en üst seviyede tutulur.
+                  Bu sayede ürün ve projeniz kısa süre daha sağlıklı bir şekilde oluşabilir.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row w-100">
+            <div class="col-md-6 d-flex justify-content-center">
+                <!-- Content img  -->
+                <img src="../img/js.png" alt="" class="w-50">
+            </div>
+            <div class="col-md-6">
+                <p class="text-justify lead p-1">
+                  Bunun gibi birçok nedenle beraber çok geniş bir kütüphaneye sahip olması da hızlı proje ve geliştirme yapmak için büyük olanak sağlıyor. Siz bir proje geliştirirken en ufak probleminiz için bir kütüphane bulabiliyorsunuz. Bu kütüphaneleri kullanarak ortaya bir proje çıkartmak çok kolay hale geliyor. Uzun uzun kod yazma zahmetinde de  kurtulmuş oluyorsunuz.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row w-100 my-2">
+          <div class="col-md-6">
+            <p class="text-justify lead p-1">
+              Diğer yazılım dillerine nazaran öğrenmesinin daha kolay olduğunu düşündüğüm JavaScript`e yeni başlayanlar veya sahip olduğu bilgiyi geliştirmek isteyenler için birkaç döküman paylaşacağım bir sonraki yazımda görüşmek üzere.
+            </p>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center">
+          <div class="list-group w-100 p-2">
+          <a href="https://developer.mozilla.org/tr/docs/Web/JavaScript" class="list-group-item list-group-item-secondary" target="_blank">JavaScript - Mozilla</a>
+          <a href="https://www.w3schools.com/js/" class="list-group-item list-group-item-dark" target="_blank">JavaScript Tutorial - w3schools</a>
+          <a href="https://javascript.info/"  class="list-group-item  list-group-item-secondary" target="_blank">JavaScript Info</a>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <footer class="pt-3 my-bg px-3 text-white"> 
+        <div class="row w-100 text-center">
+          <div class="col-sm-4 py-2">
+            <h4>Berkcan Barut</h4>
+            <span><i class="far fa-copyright"></i> Tüm hakları saklıdır.</span>
+          </div>
+          <div class="col-sm-4 py-2">
+            <h4>Sosyal Medya</h4>
+            <a href="https://twitter.com/Berkcanbbarut" target="_blank" class="text-white mr-2"><i class="fab fa-twitter fa-lg  social"></i></a>
+              <a href="https://www.instagram.com/berkcanbarutt" target="_blank" class="text-white mr-2"><i class="fab fa-instagram fa-lg  social"></i></a>
+              <a href="mailto::berkcanbrt@gmail.com" class="text-white"><i class="fas fa-at fa-lg mr-2 social "></i></a>
+          </div>
+          <div class="col-sm-4 py-2">
+            <h4>Proje ve fikir iş birliği için</h4>
+            <h6>berkcanbrt@gmail.com</h6>
+          </div>
+        </div>
+      </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

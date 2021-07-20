@@ -1,0 +1,52 @@
+body {
+    background-color: #fafafa;
+}
+
+/* Background Image -> Page Header */
+.main-image {
+    background-image: url(img/main-image.jpg);
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.heading{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.main-title{
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+}
+.sub-title{
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header-content {
+    /* background-color: #204051; */
+    font-weight: bold;
+}
+.header-p {
+   font-weight: lighter;
+}
+
+/* Slider  */
+.slider-content {
+    font-weight: 700;
+
+}
+.slider-img {
+    opacity: 0.85;
+}
+.btn-bg{
+    background-color: #4c81e4;
+}
+.my-bg {
+    background-color: #204051;
+}
